@@ -55,7 +55,7 @@ ROOT_URLCONF = 'zydric_django_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates/zydric_app"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
